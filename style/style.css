@@ -1,0 +1,73 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background: #ff7e5f;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #feb47b, #ff7e5f);
+  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, #feb47b, #ff7e5f); */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0px;
+}
+.containerWrapper {
+  min-height: 100vh;
+  display: flex;
+  min-width: 100%;
+  flex-direction: column;
+  text-align: center;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+main {
+  flex: 1;
+}
+.header {
+  display: flex;
+  top: 0px;
+  min-height: 40px;
+  width: 100%;
+
+  background-color: aqua;
+  justify-content: center;
+  align-items: center;
+}
+
+.weatherCard {
+  background-color: lightcyan;
+  width: 400px;
+
+  box-sizing: border-box;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.weatherCard > p {
+  width: 100%;
+}
+
+.info {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.infoApi {
+  color: #ff7e5f;
+}
+.containerWrapper {
+  flex: 1;
+}
+.footer {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(198, 203, 203);
+}
