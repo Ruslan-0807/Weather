@@ -8,20 +8,23 @@
     <title>Weather app</title>
   </head>
   <body>
-    <div class="containerWrapper" id="containerWrapper">
-      <header class="header">
-        <p>Meteo</p>
-      </header>
-      <main>
+    <header class="header" id="header">
+      <a class="navLink" href="">Main Page</a>
+      <a class="navLink" href="../place/place.html">Leipzig places</a>
+      <!-- <button class="btn_weather" id="btn_weather">Weather</button> -->
+    </header>
+    <main class="main">
+      <div class="cardContainer">
         <div class="weatherCard" id="weatherCard">
+          <div class="loader"></div>
           <span id="info" class="info"></span
           ><span id="forecast" class="info infoApi"></span>
           <p id="place"></p>
           <p id="temperature"></p>
           <p id="wind"></p>
         </div>
-      </main>
-      <footer class="footer" id="footer"></footer>
-    </div>
+      </div>
+    </main>
+    <footer class="footer" id="footer"></footer>
   </body>
 </html>
